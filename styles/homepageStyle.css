@@ -1,0 +1,54 @@
+*{
+	font-family: sans-serif;
+}
+html, body{
+	width: 100%;
+	margin: 0;
+}
+header{
+	text-align: center;
+	margin: 20px;
+}
+h1{
+	font-size: 3rem;
+	/* background-color: red; */
+	display: inline;
+	margin: 0;
+}
+h2{
+	margin: 0;
+}
+
+.mainContent{
+	vertical-align: top;
+	/* color: pink; */
+	width: 50%;
+	background-color: lightgray;
+	display: inline-block;
+}
+
+.sideContent{
+	vertical-align: top;
+	background-color: lightgray;
+	display: inline-block;
+	width: 15rem;
+}
+
+
+.allContent{
+	text-align: center;
+}
+
+.content{
+
+	padding: 25px;
+}
+
+ul{
+	list-style-type: none;
+	list-style: none;
+	padding: 0;
+}
+img{
+	display:inline-block;
+}
