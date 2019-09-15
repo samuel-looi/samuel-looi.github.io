@@ -1,14 +1,74 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Stories and Legends (PAGE title) </title>
-		<meta charset="UTF-8">
-		<link href="../styles/main.css" rel="stylesheet" type="text/css">
+		<meta charset="UTF-8" />
+		<link href="../styles/main.css" rel="stylesheet" type="text/css"/>
+		<title>Samuel Looi Homepage</title>
 	</head>
-
 	<body>
+		<header>
+			<h1>Samuel Looi Site</h1>
+		</header>
+		<div id="allContent">
+			<!-- MAIN CONTENT -->
+			<div class="mainContent content">
+				<div class="introduction">
+					<h2>CSS Positions: Relative absolute fixed</h2>
+					<p>The <em>position</em> CSS attribute, changes how the HTML element is positioned. Here I will be explaining the following position values: relative, absolute, fixed</p>
+				</div>
+				<div>
+					<div>
+						<h3>Relative</h3>
+						<p>
+							The relative value does not change the position of the element it is assigned to, unless the positioning attributes (top, right, bottom, left) are used.
+						</p>
+						<p>
+							The value assigned to the positioning attributes (top, right, bottom, left) will cause the element to be moved <strong>away</strong> by the amount specified from the direction (top, right, bottom, left) mentioned.
+						</p>
+						<p>
+							With the following style code: 
+						</p>
+						<span class="code">position:relative; top:20px;</span>
+						<p>
+							The element it is assigned to will be moved 20px away from the top from its previous (original) position. In other words, it will move down 20px.
+						</p>
+					</div>
 
-		<!-- this is a comment. -->
-		<h1>Z</h1>
+					<div>
+						<h3>Absolute</h3>
+						<p>
+							The element assigned with this value will be positioned absolutely from either the closest that parent has the position value of relative, absolute or fixed. Otherwise the element is position relative to the HTML element
+						</p>
+						<p>
+							When this value is used, the element is taken out of the DOM flow, and thus other elements will act as if it's not there.
+						</p>
+						<p>
+							Note that this element will still be in its original position until the positioning attributes (top, right, bottom, left) as used.
+						</p>
+					</div>
+
+					<h3>Fixed</h3>
+					<p>
+						The CSS position fixed is the exact same as the CSS position absolute, except the top, right, bottom, left positioning attributes refering to the viewport.
+					</p>
+					<p>
+						With the following styling code:
+					</p>
+					<span class="code">
+							position:fixed; top:5px;
+					</span>
+					<p>
+						The element will be positioned in relation to the page, so the element will be moved 5 pixels from the top of the page.
+					</p>
+				</div>
+			</div>
+
+			<!-- SIDE BAR CONTENT -->
+			<div class="sideContent content">
+				<h2>Techical Blog</h2>
+				<ul>
+					<li><a href="https://samuel-looi.github.io/blog/sprint1-technical.html">Blog 1 - relative absolute fixed</a></li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>

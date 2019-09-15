@@ -19,7 +19,7 @@ h2{
 	margin: 0;
 }
 
-.mainContent{
+.mainContent{/*  */
 	vertical-align: top;
 	/* color: pink; */
 	width: 50%;
@@ -40,7 +40,7 @@ h2{
 }
 
 .content{
-
+	text-align: left;
 	padding: 25px;
 }
 
@@ -51,4 +51,11 @@ ul{
 }
 img{
 	display:inline-block;
+}
+
+
+.code{
+	margin: 0 0 0 1rem;
+	font-family: monospace;
+	font-size: 1.3em;
 }
